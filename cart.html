@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speed & Style - Cart</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    
+    <!-- Header -->
+    <header class="header">
+        <div class="logo">
+            Speed & Style 
+            <img class="logop" src="Screenshot from 2024-11-30 11-09-23.png" alt="Logo">
+        </div>
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="shop.html">Shop</a>
+            <a href="categories.html">Categories</a>
+            <a href="cart.html" class="active">Cart</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+        <input type="text" class="search-bar" placeholder="Search for shoes...">
+    </header>
+
+    <!-- Cart Section -->
+    <section class="cart">
+        <h2 class="cart-heading">Your Cart</h2>
+        
+        <!-- Product Summary Table -->
+        <div class="cart-summary">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th>Image</th>
+                        <th>Price</th>
+                        <th>Quantity</th>
+                        <th>Subtotal</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Row 1 -->
+                    <tr>
+                        <td>Running Sneakers</td>
+                        <td>
+                            <img src="hohi.jpg" alt="Running Sneakers" class="product-img-small">
+                        </td>
+                        <td>$59.99</td>
+                        <td>
+                            <input type="number" value="1" min="1" class="quantity-input">
+                        </td>
+                        <td>$59.99</td>
+                    </tr>
+                    
+                    <!-- Row 2 -->
+                    <tr>
+                        <td>Formal Leather Shoes</td>
+                        <td>
+                            <img src="buggu.jpg" alt="Formal Leather Shoes" class="product-img-small">
+                        </td>
+                        <td>$89.99</td>
+                        <td>
+                            <input type="number" value="1" min="1" class="quantity-input">
+                        </td>
+                        <td>$89.99</td>
+                    </tr>
+                    <tr>
+                        <td>Comfy Shoes</td>
+                        <td>
+                            <img src="lovvee.jpg" alt="Comfy Shoes" class="product-img-small">
+                        </td>
+                        <td>$59.99</td>
+                        <td>
+                            <input type="number" value="1" min="1" class="quantity-input">
+                        </td>
+                        <td>$59.99</td>
+                    </tr>
+                    <tr>
+                        <td>Stylish Shoes</td>
+                        <td>
+                            <img src="455.jpg" alt="Stylish Shoes" class="product-img-small">
+                        </td>
+                        <td>$59.99</td>
+                        <td>
+                            <input type="number" value="1" min="1" class="quantity-input">
+                        </td>
+                        <td>$59.99</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="4" class="total-label">Total:</td>
+                        <td class="total-value">$149.98</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© 2024 Speed & Style. All Rights Reserved.</p>
+        <div class="social-icons">
+            <a href="https://facebook.com" target="_blank" class="icon"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://instagram.com" target="_blank" class="icon"><i class="fab fa-instagram"></i></a>
+            <a href="https://twitter.com" target="_blank" class="icon"><i class="fab fa-twitter"></i></a>
+        </div>
+    </footer>
+</body>
+
+</html>
+
